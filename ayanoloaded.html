@@ -1,0 +1,20 @@
+<progress max="100" value="80"></progress>
+
+<style>
+progress[value] {
+  width: 300px;
+  height: 14px;
+  margin: 50px auto;
+  display: block;
+  /* Important Thing */
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: lightgray;
+  border-radius: 50px;
+  box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+}
+</style>
