@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 
 <script>
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+</script>
+
+<script>
   window.fbAsyncInit = function() {
     FB.init({
       appId      : '654943134908800',
