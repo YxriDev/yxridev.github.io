@@ -29,11 +29,11 @@ function checkLoginState() {
    }(document, 'script', 'facebook-jssdk'));
 </script>
 
-
+<script>
 FB.getLoginStatus(function(response) {
     statusChangeCallback(response);
 });
-
+</script>
 
 <html lang="en">
 <head>
