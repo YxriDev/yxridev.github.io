@@ -1,0 +1,214 @@
+<!DOCTYPE HTML>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '654943134908800',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v3.2'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<script>
+FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+});
+</script>
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-3091652689884718",
+    enable_page_level_ads: true
+  });
+</script>
+<style>
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+</style>
+<style>
+html {
+  scroll-behavior: smooth;
+ }
+</style>
+<html>
+	<head>
+		<title>SimpleObject</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+		
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo"><strong>SimpleObject</strong></a>
+					<nav id="nav">
+						<a href="alexa">Alexa</a>
+						<a href="ayano">Ayano</a>
+						<a href="shop">Shop</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<div class="inner">
+					<header>
+						<h1>Welcome to SimpleObject</h1>
+						
+					</header>
+
+					<div class="flex ">
+
+						<div>
+							<span class="icon fa-car"></span>
+							<h3>Simple</h3>
+							<p>The best place for the best discord bots.</p>
+						</div>
+
+						<div>
+							<span class="icon fa-camera"></span>
+							<h3>Selling</h3>
+							<p>We don't only make bots for us we also sell them.</p>
+						</div>
+
+						<div>
+							<span class="icon fa-bug"></span>
+							<h3>Bugs</h3>
+							<p>The worst thing to exist.</p>
+						</div>
+
+					</div>
+
+					<footer>
+						<a href="#inner" class="button">Get Started</a>
+					</footer>
+				</div>
+			</section>
+
+
+		<!-- Three -->
+			<section id="three" class="wrapper align-center">
+				<div class="inner">
+					<div class="flex flex-2">
+						<article>
+							<div class="image round">
+								<img src="images/pic02.jpg" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>[CEO] YxriDev#5153</h3>
+							</header>
+							
+							<footer>
+								<a href="./yxridev" class="button">Learn More</a>
+							</footer>
+						</article>
+						<article>
+							<div class="image round">
+								<img src="images/pic02.jpg" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>[Secutary CEO] Lizzy-senpai#2522</h3>
+							</header>
+							
+							<footer>
+								<a href="./lizzy" class="button">Learn More</a>
+							</footer>
+						</article>
+            <article>
+							<div class="image round">
+								<img src="images/pic02.jpg" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>[Developer] Ice#1234</h3>
+							</header>
+							<p>Discord Alexa another free Multi-purpose bot made by the CEO of SimpleObject is the perfect bot for a simple and well coded bot!</p>
+							<footer>
+								<a href="./ice" class="button">Learn More</a>
+							</footer>
+						</article>
+            <article>
+							<div class="image round">
+								<img src="images/pic02.jpg" alt="Pic 02" />
+							</div>
+							<header>
+								<h3>[Developer] Ralsei#6845</h3>
+							</header>
+							
+							<footer>
+								<a href="./ralsei" class="button">Learn More</a>
+							</footer>
+						</article>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner" id="inner">
+
+					<h3>Get in touch</h3>
+					<form action="https://formspree.io/simpleobjectdiscord.com" method="POST">
+
+						<div class="field half first">
+							<label for="name">Name</label>
+							<input name="name" id="name" type="text" placeholder="Name">
+						</div>
+						<div class="field half">
+							<label for="email">Email</label>
+							<input name="email" id="email" type="email" placeholder="Email">
+						</div>
+						<div class="field">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" rows="6" placeholder="Message"></textarea>
+						</div>
+						<ul class="actions">
+							<li><input value="Send Message" class="button alt" type="submit"></li>
+						</ul>
+					</form>
+
+					<div class="copyright">
+						&copy; SimpleObject. All rights reserved. Images: <a href="https://unsplash.com">Unsplash</a>.
+					</div>
+
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
